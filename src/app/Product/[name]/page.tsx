@@ -2,14 +2,14 @@ import InformationProduct from "@/components/DetailProduct/InformationProduct";
 import AllProductData from "@/data/allProductData.json";
 
 
-export async function generateStaticParams() {
-    const posts:any = []
-    AllProductData.map((item: any) => posts.push({
-        id: item.id
-    }))
+// export async function generateStaticParams() {
+//     const posts:any = []
+//     AllProductData.map((item: any) => posts.push({
+//         id: item.id
+//     }))
 
-    return posts
-}
+//     return posts
+// }
 
 // const App = dynamic(() => import('@/data/productData'), {ssr: false})
 
