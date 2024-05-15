@@ -1,0 +1,556 @@
+export const productData = [
+    {
+        id: 1,
+        image: [
+            {
+                id: 1,
+                link: "/product-1.png"
+            },
+        ],
+        title: "Bắp mỹ",
+        category: "traicay",
+        price: 35000,
+    },
+    {
+        id: 2,
+        image: [
+            {
+                id: 1,
+                link: "/product-2.png"
+            },
+        ],
+        title: "Bí đỏ",
+        category: "raucu",
+        price: 55000,
+    },
+    {
+        id: 3,
+        image: [
+            {
+                id: 1,
+                link: "/product-3.png"
+            },
+        ],
+        title: "Bí xanh",
+        category: "raucu",
+        price: 40000
+    },
+    {
+        id: 4,
+        image: [
+            {
+                id: 1,
+                link: "/product-4.png"
+            },
+        ],
+        title: "Bưởi da xanh",
+        category: "traicay",
+        price: 120000,
+        salePrice: 160000
+    },
+    {
+        id: 5,
+        image: [
+            {
+                id: 1,
+                link: "/product-5.png"
+            },
+        ],
+        title: "Cà chua",
+        category: "traicay",
+        price: 25000,
+        salePrice: 30000
+    },
+    {
+        id: 6,
+        image: [
+            {
+                id: 1,
+                link: "/product-6.png"
+            },
+        ],
+        title: "Cà rốt",
+        category: "raucu",
+        price: 32000,
+        salePrice: 37000
+    },
+    {
+        id: 7,
+        image: [
+            {
+                id: 1,
+                link: "/product-7.png"
+            },
+        ],
+        title: "Cà tím",
+        category: "traicay",
+        price: 20000,
+        salePrice: 30000
+    },
+    {
+        id: 8,
+        image: [
+            {
+                id: 1,
+                link: "/product-8.png"
+            },
+            {
+                id: 2,
+                link: "/product-8-2.png"
+            },
+            {
+                id: 3,
+                link: "/product-8-3.png"
+            }
+        ],
+        title: "Đậu bắp",
+        category: "traicay",
+        price: 22000
+    },
+    {
+        id: 9,
+        image: [
+            {
+                id: 1,
+                link: "/product-9.png"
+            },
+        ],
+        title: "Dâu tây Đà Lạt",
+        category: "traicay",
+        price: 90000,
+        salePrice: 110000
+    },
+    {
+        id: 10,
+        image: [
+            {
+                id: 1,
+                link: "/product-10.png"
+            },
+            {
+                id: 2,
+                link: "/product-10-2.png"
+            },
+            {
+                id: 3,
+                link: "/product-10-3.png"
+            },
+            {
+                id: 4,
+                link: "/product-10.png"
+            },
+        ],
+        title: "Dưa lưới",
+        category: "traicay",
+        price: 100000,
+        salePrice: 130000
+    },
+]
+
+
+export const productDataMeat = [
+    {
+        id: 11,
+        image: [
+            {
+                id: 1,
+                link: "/product-11.png"
+            },
+        ],
+        title: "Thịt bò",
+        category: "thit",
+        price: 140000
+    },
+    {
+        id: 12,
+        image: [
+            {
+                id: 1,
+                link: "/product-12.png"
+            },
+        ],
+        title: "Thịt heo ba rọi",
+        category: "thit",
+        price: 190000
+    },
+]
+
+export const AllProductData = [
+    {
+        id: 1,
+        image: [
+            {
+                id: 1,
+                link: "/product-1.png"
+            },
+        ],
+        title: "Bắp mỹ",
+        category: "traicay",
+        categoryShow: "Trái Cây",
+        price: 35000,
+        brand: "farmer",
+        branShow: "Farmer",
+        OutOfProduct: false,
+        desciption: "Bắp Mỹ Hạt được trồng và phát triển rộng ở khắp nơi trên thế giớiBắp Mỹ còn có các tên gọi khác là ngô ngọt hay bắp ngọt. Ở Châu Mỹ thì đây là cây lương thực được gieo trồng nhiều nhất và đã có các giống bắp lai ghép cho năng suất cực kỳ cao. Khoảng những năm 1990, loại bắp này đã du nhập vào nước ta rồi sau đó phát triển rộng rãi đến ngày hôm nay....",
+        weight : [
+            {
+                id: 1,
+                amount: 1
+            }
+        ]
+    },
+    {
+        id: 2,
+        image: [
+            {
+                id: 1,
+                link: "/product-2.png"
+            },
+        ],
+        title: "Bí đỏ",
+        category: "raucu",
+        categoryShow: "Rau Củ",
+        price: 55000,
+        brand: "farmer",
+        brandShow: "Farmer",
+        OutOfProduct: false,
+        desciption: "1. Bí ngô rất giàu dinh dưỡng, cụ thể là vitamin AMột chén bí ngô nấu chín (245 gram) chứa:Calo: 49Chất béo: 0.2 gramProtein: 2 gramCarbohydrat: 12 gramChất xơ: 3 gramVitamin A: 245% Chế độ ăn uống tham khảoVitamin C: 19% Chế độ ăn uống tham khảoKali: 16% Chế độ ăn uống tham khảoĐồng: 11% Chế độ ăn uống tham khảoMangan: 11% Chế độ ăn uống tham khảoVitamin B2: 11% Chế độ ăn uống tham khảoVitamin E: 10% Chế độ ăn uống tham khảoSắt: 8% Chế độ ăn uống tham khảoMột lượng nhỏ...",
+        weight : [
+            {
+                id: 1,
+                amount: 1
+            }
+        ]
+    },
+    {
+        id: 3,
+        image: [
+            {
+                id: 1,
+                link: "/product-3.png"
+            },
+        ],
+        title: "Bí xanh",
+        category: "raucu",
+        categoryShow: "Rau",
+        price: 40000,
+        brand: "farmer",
+        brandShow: "Farmer",
+        OutOfProduct: false,
+        weight : [
+            {
+                id: 1,
+                amount: 1
+            }
+        ]
+    },
+    {
+        id: 4,
+        image: [
+            {
+                id: 1,
+                link: "/product-4.png"
+            },
+        ],
+        title: "Bưởi da xanh",
+        category: "traicay",
+        categoryShow: "Trái Cây",
+        price: 120000,
+        salePrice: 160000,
+        brand: "farmer",
+        brandShow: "Farmer",
+        OutOfProduct: false,
+        desciption: "Nguồn gốc bưởi da xanhBưởi da xanh được phát hiện lần đầu tại xã Thanh Tân – Mỏ Cày Bắc –  Bến Tre. Tên gọi “da xanh” bắt nguồn từ chính đặc tính của quả. Quả bưởi dù xanh dù chín thì lớp vỏ bên ngoài vẫn có màu xanh. Chỉ riêng phần thịt của quả bưởi là chuyển màu từ trắng sữa sang hồng. Ở một số vùng còn gọi quả bưởi này là bưởi đào.Loại quả này còn có...",
+        weight : [
+            {
+                id: 1,
+                amount: 1
+            }
+        ]
+    },
+    {
+        id: 5,
+        image: [
+            {
+                id: 1,
+                link: "/product-5.png"
+            },
+        ],
+        title: "Cà chua",
+        category: "traicay",
+        categoryShow: "Trái Cây",
+        price: 25000,
+        salePrice: 30000,
+        brand: "farmer",
+        brandShow: "Farmer",
+        OutOfProduct: false,
+        desciption: "Cà chua rất giàu vitamin A, C, K, vitamin B6, kali, folate, thiamin, magiê, niacin, đồng và phốt pho, là những vi chấtcần thiết để duy trì một sức khỏe tốt. Điều tuyệt vời hơn ở cà chua là chúng chứa rất ít cholesterol, chất béo bão hòa, natri và calo. Bạn có thể ăn cà chua sống kẹp với bánh mì, làm salad, nước sốt, sinh tố, thậm chí nấu súp. Sau đây là 9 lợi ích của cà chua.1. Cải...",
+        weight : [
+            {
+                id: 1,
+                amount: 1
+            },
+            {
+                id: 2,
+                amount: 1.5
+            }
+        ]
+    },
+    {
+        id: 6,
+        image: [
+            {
+                id: 1,
+                link: "/product-6.png"
+            },
+        ],
+        title: "Cà rốt",
+        category: "raucu",
+        categoryShow: "Rau củ",
+        price: 32000,
+        salePrice: 37000,
+        brand: "bachhoaxanh",
+        brandShow: "Bách Hóa Xanh",
+        OutOfProduct: false,
+        desciption: "Cà rốt giàu chất chống oxy hóa, chất xơ, beta carotene, các vitamin và khoáng chất. Nghiên cứu đã cho thấy tác dụng của cà rốt có thể giúp bạn cải thiện thị lực, tăng cường sức khỏe của da và giảm nguy cơ mắc một số bệnh ung thư đấy.Cà rốt chứa beta-carotene và alpha-carotene là hai loại carotenoid mà cơ thể chúng ta chuyển đổi thành vitamin A. Vitamin A đóng vai trò quan trọng trong việc cải...",
+        weight : [
+            {
+                id: 1,
+                amount: 1
+            },
+            {
+                id: 2,
+                amount: 1.5
+            }
+        ]
+    },
+    {
+        id: 7,
+        image: [
+            {
+                id: 1,
+                link: "/product-7.png"
+            },
+        ],
+        title: "Cà tím",
+        category: "traicay",
+        categoryShow: "Trái Cây",
+        price: 20000,
+        salePrice: 30000,
+        brand: "bachhoaxanh",
+        brandShow: "Bách Hóa Xanh",
+        OutOfProduct: false,
+        desciption: "1. Một vài nét về cây cà tímNguồn gốc của cây cà tímCây cà tím được trồng để lấy quả và là một trong những loại nông sản được trồng nhiều trên thế giới. Thậm chí ở Ấn Độ, cà tím được xếp trong danh sánh Vua của các loại rau củ về giá trị dinh dưỡng và mức độ ưa chuộng của nó.Sự xuất hiện của cây cà tím được cho rằng đã có từ thời tiền sử ở...",
+        weight : [
+            {
+                id: 1,
+                amount: 1
+            },
+            {
+                id: 2,
+                amount: 1.5
+            }
+        ]
+    },
+    {
+        id: 8,
+        image: [
+            {
+                id: 1,
+                link: "/product-8.png"
+            },
+            {
+                id: 2,
+                link: "/product-8-2.png"
+            },
+            {
+                id: 3,
+                link: "/product-8-3.png"
+            }
+        ],
+        title: "Đậu bắp",
+        category: "raucu",
+        categoryShow: "Rau Củ",
+        price: 22000,
+        brand: "bachhoaxanh",
+        brandShow: "Bách Hóa Xanh",
+        OutOfProduct: false,
+        desciption: "Tác dụng của đậu bắp sẽ khiến bạn ngạc nhiên bởi dù chỉ là món ăn rất bình dân nhưng quả đậu bắp lại mang đến rất nhiều lợi ích tuyệt vời cho sức khỏe.Đậu bắp là một thực phẩm phổ biến được trồng và tiêu thụ ở hầu hết mọi nơi trên thế giới. Loại rau xanh này có lượng calo thấp, giàu chất dinh dưỡng và chất oxy hóa rất có lợi cho sức khỏe tổng thể của...",
+        weight : [
+            {
+                id: 1,
+                amount: 1
+            },
+            {
+                id: 2,
+                amount: 1.5
+            }
+        ]
+    },
+    {
+        id: 9,
+        image: [
+            {
+                id: 1,
+                link: "/product-9.png"
+            },
+        ],
+        title: "Dâu tây Đà Lạt",
+        category: "traicay",
+        categoryShow:"Trái Cây",
+        price: 90000,
+        salePrice: 110000,
+        brand: "farmer",
+        brandShow: "Farmer",
+        OutOfProduct: false,
+        desciption: "1. Nguồn gốc và đặc điểm của quả dâu tâyNguồn gốc của quả dâu tâyDâu tây là một loại trái cây rất được ưa chuộng, thuộc chi Fragaria có nguồn gốc từ châu Mỹ. Có ý kiến cho rằng chúng được lai tạo giữa hai dạng cây thuộc Bắc và Nam Mỹ.Fragaria dùng để chỉ phần cùi thịt của quả có mùi thơm. Một sự thật khá thú vị, người làm vườn ở châu Âu chỉ đem về những cây...",
+        weight : [
+            {
+                id: 1,
+                amount: 1
+            },
+            {
+                id: 2,
+                amount: 2
+            }
+        ]
+    },
+    {
+        id: 10,
+        image: [
+            {
+                id: 1,
+                link: "/product-10.png"
+            },
+            {
+                id: 2,
+                link: "/product-10-2.png"
+            },
+            {
+                id: 3,
+                link: "/product-10-3.png"
+            },
+            {
+                id: 4,
+                link: "/product-10.png"
+            },
+        ],
+        title: "Dưa lưới",
+        category: "traicay",
+        categoryShow: "Trái Cây",
+        price: 100000,
+        salePrice: 130000,
+        brand: "farmer",
+        brandShow: "Farmer",
+        OutOfProduct: false,
+        MSPindex: "DL-101",
+        desciption: "Dưa lưới có tác dụng gì? 10 công dụng của dưa lưới đối với sức khỏeDưa lưới là một trong nhưng loại trái cây được ưa chuộng khi hè đến bởi hương vị thanh mát và ngon ngọt. Bài viết dưới đây của chuyên mục Mẹo vào bếp sẽ chỉ ra công dụng của dưa lưới và những người không nên ăn loại thực phẩm này, cùng xem thôi!1. Nguồn gốc và đặc điểm của dưa lướiDưa lưới là loại quả thường...",
+        weight : [
+            {
+                id: 1,
+                amount: 1
+            },
+            {
+                id: 2,
+                amount: 2
+            }
+        ],
+        typeOfProduct: [
+            {
+                id: 1,
+                type: "Ananas"
+            },
+            {
+                id: 2,
+                type: "Apollo"
+            },
+        ]
+    },
+    {
+        id: 11,
+        image: [
+            {
+                id: 1,
+                link: "/product-11.png"
+            },
+        ],
+        title: "Thịt bò",
+        category: "thit",
+        categoryShow: "Thịt",
+        price: 140000,
+        brand: "farmer",
+        brandShow: "Farmer",
+        OutOfProduct: false,
+        desciption: " sung. Nước luộc thịt bò là phương thuốc tốt nhất sau khi bệnh nặng. Loại thịt này có nhiều đặc tính hữu ích, nhưng cũng có một số chống chỉ định. Tìm hiểu mọi thứ ngay bây giờ! Và cuối cùng là 10 mẹo chọn và nấu thịt bò!Thịt bò là một loại thịt tuyệt vời chứa ít calo và nhiều chất dinh dưỡng. Nên đưa nó vào chế độ ăn uống của bạn cho các vận động viên và...",
+        weight : [
+            {
+                id: 1,
+                amount: 1
+            },
+            {
+                id: 2,
+                amount: 2
+            }
+        ]
+    },
+    {
+        id: 12,
+        image: [
+            {
+                id: 1,
+                link: "/product-12.png"
+            },
+        ],
+        title: "Thịt heo ba rọi",
+        category: "thit",
+        categoryShow: "Thịt",
+        price: 190000,
+        brand: "farmer",
+        brandShow: "Farmer",
+        OutOfProduct: false,
+        desciption: "Thịt ba rọi là khúc thịt lợn được nhiều người ưa chuộng bởi có tỷ lệ mỡ nạc hài hòa và dễ chế biến thành nhiều món ăn ngon khác nhau như rim, nướng, kho, luộc, hầm hay hun khói, thịt quay... Tuy nhiên, để mua được thịt ba rọi ngon, an toàn cho sức khỏe không phải ai cũng nắm rõ. Vậy thịt ba rọi là phần nào? Cách chọn thịt ba rọi ngon và an toàn cho sức...",
+        weight : [
+            {
+                id: 1,
+                amount: 1
+            },
+            {
+                id: 2,
+                amount: 2
+            }
+        ],
+        typeOfProduct: [
+            {
+                id: 1,
+                type: "Default Title"
+            }
+        ]
+    },
+    {
+        id: 13,
+        image: [
+            {
+                id: 1,
+                link: "/product-13.png"
+            },
+            {
+                id: 2,
+                link: "/product-13-2.png"
+            },
+        ],
+        title: "Tôm hùm Alaska",
+        category: "haisan",
+        categoryShow: "Hải Sản",
+        price: 190000,
+        brand: "farmer",
+        brandShow: "Farmer",
+        OutOfProduct: true,
+        desciption: "Tôm hùm Alaska sinh sống tại vùng biển sâu của Canada phía bắc nước Mỹ Tôm này chỉ sống tại những bãi đá ngầm, nước trong xanh, cực lạnh nên thịt tôm trắng, dai, có vị ngọt, đậm và thơm, có độ an toàn tuyệt đối. Sản phẩm tôm hùm Alaska chín như hình size khoảng 400gr - 450gr/ con , shop lựa kĩ từng con cẩn thận trước khi xuất bán .Đang bảo quản đông lạnh nhằm bảo quản chất lượng thịt...",
+        weight : [
+            {
+                id: 1,
+                amount: 1
+            },
+        ]
+    },
+]

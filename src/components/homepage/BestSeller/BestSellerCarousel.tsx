@@ -1,0 +1,42 @@
+'use client'
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
+import Autoplay from "embla-carousel-autoplay"
+import ProductItem from '@/components/ProductItem/page';
+import { productData } from '@/data/productData';
+import { useState } from 'react';
+import PopupBestSeller from '@/components/homepage/BestSeller/PopupBestSeller';
+import OrderPopupBestSeller from '@/components/homepage/BestSeller/OrderPopupBestSeller';
+
+function BestSellerCarousel() {
+
+    const [isShowPopup, setIsShowPopup] = useState(false)
+    const [getItem, setGetItem] = useState('')
+    const [isShowOrder, setIsShowOrder] = useState(false)
+
+    return (
+        <>
+        <Carousel className="w-full max-w-full mx-auto mt-10"
+            opts={{
+                align: "start",
+                loop: true,
+            }} plugins={[
+                Autoplay({
+                    delay: 5000,
+                }),
+            ]}>
+            <CarouselContent>
+                {productData.map((item: any) => (
+                    <CarouselItem key={item.id} className="basis-full flex justify-center sm:basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5"><ProductItem item={item} bestSeller setIsShowPopup={setIsShowPopup} setGetItem={setGetItem} setIsShowOrder={setIsShowOrder}/></CarouselItem>
+                ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+        </Carousel>
+
+        {getItem ? (<PopupBestSeller isPopup2={isShowPopup} setIsPopup={setIsShowPopup} item={getItem}/>) : ""}
+        {getItem ? (<OrderPopupBestSeller isShowOrder={isShowOrder} setIsShowOrder={setIsShowOrder} item={getItem}/>) : ""}
+        </>
+    );
+}
+
+export default BestSellerCarousel;
